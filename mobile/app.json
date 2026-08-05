@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "CastingAI",
+    "slug": "castingai",
+    "version": "1.0.0",
+    "scheme": "castingai",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#050810"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.castingai.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#050810"
+      },
+      "package": "com.castingai.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-image-picker"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
