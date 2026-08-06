@@ -39,7 +39,8 @@ web-build/
 .env.production.local
 backend/.env
 
-# Local Databases & Logs
+# Local Databases, Uploads & Logs
+backend/uploads/
 *.db
 *.sqlite
 *.sqlite3
